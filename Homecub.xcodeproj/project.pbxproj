@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1C405DD26040D8D00DC6148 /* HomecubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C405DC26040D8D00DC6148 /* HomecubApp.swift */; };
+		F1C405DF26040D8D00DC6148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C405DE26040D8D00DC6148 /* ContentView.swift */; };
+		F1C405E126040D8E00DC6148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C405E026040D8E00DC6148 /* Assets.xcassets */; };
+		F1C405E426040D8E00DC6148 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C405E326040D8E00DC6148 /* Preview Assets.xcassets */; };
+		F1C405EF26040D8E00DC6148 /* HomecubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C405EE26040D8E00DC6148 /* HomecubTests.swift */; };
+		F1C405FA26040D8E00DC6148 /* HomecubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C405F926040D8E00DC6148 /* HomecubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C405EB26040D8E00DC6148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C405D126040D8D00DC6148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C405D826040D8D00DC6148;
+			remoteInfo = Homecub;
+		};
+		F1C405F626040D8E00DC6148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C405D126040D8D00DC6148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C405D826040D8D00DC6148;
+			remoteInfo = Homecub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1C405D926040D8D00DC6148 /* Homecub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homecub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C405DC26040D8D00DC6148 /* HomecubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomecubApp.swift; sourceTree = "<group>"; };
+		F1C405DE26040D8D00DC6148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1C405E026040D8E00DC6148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C405E326040D8E00DC6148 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1C405E526040D8E00DC6148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C405EA26040D8E00DC6148 /* HomecubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomecubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C405EE26040D8E00DC6148 /* HomecubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomecubTests.swift; sourceTree = "<group>"; };
+		F1C405F026040D8E00DC6148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C405F526040D8E00DC6148 /* HomecubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomecubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C405F926040D8E00DC6148 /* HomecubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomecubUITests.swift; sourceTree = "<group>"; };
+		F1C405FB26040D8E00DC6148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C405D626040D8D00DC6148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C405E726040D8E00DC6148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C405F226040D8E00DC6148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1C405D026040D8D00DC6148 = {
+			isa = PBXGroup;
+			children = (
+				F1C405DB26040D8D00DC6148 /* Homecub */,
+				F1C405ED26040D8E00DC6148 /* HomecubTests */,
+				F1C405F826040D8E00DC6148 /* HomecubUITests */,
+				F1C405DA26040D8D00DC6148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C405DA26040D8D00DC6148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C405D926040D8D00DC6148 /* Homecub.app */,
+				F1C405EA26040D8E00DC6148 /* HomecubTests.xctest */,
+				F1C405F526040D8E00DC6148 /* HomecubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C405DB26040D8D00DC6148 /* Homecub */ = {
+			isa = PBXGroup;
+			children = (
+				F1C405DC26040D8D00DC6148 /* HomecubApp.swift */,
+				F1C405DE26040D8D00DC6148 /* ContentView.swift */,
+				F1C405E026040D8E00DC6148 /* Assets.xcassets */,
+				F1C405E526040D8E00DC6148 /* Info.plist */,
+				F1C405E226040D8E00DC6148 /* Preview Content */,
+			);
+			path = Homecub;
+			sourceTree = "<group>";
+		};
+		F1C405E226040D8E00DC6148 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1C405E326040D8E00DC6148 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1C405ED26040D8E00DC6148 /* HomecubTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C405EE26040D8E00DC6148 /* HomecubTests.swift */,
+				F1C405F026040D8E00DC6148 /* Info.plist */,
+			);
+			path = HomecubTests;
+			sourceTree = "<group>";
+		};
+		F1C405F826040D8E00DC6148 /* HomecubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C405F926040D8E00DC6148 /* HomecubUITests.swift */,
+				F1C405FB26040D8E00DC6148 /* Info.plist */,
+			);
+			path = HomecubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C405D826040D8D00DC6148 /* Homecub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C405FE26040D8E00DC6148 /* Build configuration list for PBXNativeTarget "Homecub" */;
+			buildPhases = (
+				F1C405D526040D8D00DC6148 /* Sources */,
+				F1C405D626040D8D00DC6148 /* Frameworks */,
+				F1C405D726040D8D00DC6148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homecub;
+			productName = Homecub;
+			productReference = F1C405D926040D8D00DC6148 /* Homecub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C405E926040D8E00DC6148 /* HomecubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C4060126040D8E00DC6148 /* Build configuration list for PBXNativeTarget "HomecubTests" */;
+			buildPhases = (
+				F1C405E626040D8E00DC6148 /* Sources */,
+				F1C405E726040D8E00DC6148 /* Frameworks */,
+				F1C405E826040D8E00DC6148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C405EC26040D8E00DC6148 /* PBXTargetDependency */,
+			);
+			name = HomecubTests;
+			productName = HomecubTests;
+			productReference = F1C405EA26040D8E00DC6148 /* HomecubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1C405F426040D8E00DC6148 /* HomecubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C4060426040D8E00DC6148 /* Build configuration list for PBXNativeTarget "HomecubUITests" */;
+			buildPhases = (
+				F1C405F126040D8E00DC6148 /* Sources */,
+				F1C405F226040D8E00DC6148 /* Frameworks */,
+				F1C405F326040D8E00DC6148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C405F726040D8E00DC6148 /* PBXTargetDependency */,
+			);
+			name = HomecubUITests;
+			productName = HomecubUITests;
+			productReference = F1C405F526040D8E00DC6148 /* HomecubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C405D126040D8D00DC6148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F1C405D826040D8D00DC6148 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F1C405E926040D8E00DC6148 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F1C405D826040D8D00DC6148;
+					};
+					F1C405F426040D8E00DC6148 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F1C405D826040D8D00DC6148;
+					};
+				};
+			};
+			buildConfigurationList = F1C405D426040D8D00DC6148 /* Build configuration list for PBXProject "Homecub" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C405D026040D8D00DC6148;
+			productRefGroup = F1C405DA26040D8D00DC6148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C405D826040D8D00DC6148 /* Homecub */,
+				F1C405E926040D8E00DC6148 /* HomecubTests */,
+				F1C405F426040D8E00DC6148 /* HomecubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C405D726040D8D00DC6148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C405E426040D8E00DC6148 /* Preview Assets.xcassets in Resources */,
+				F1C405E126040D8E00DC6148 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C405E826040D8E00DC6148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C405F326040D8E00DC6148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C405D526040D8D00DC6148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C405DF26040D8D00DC6148 /* ContentView.swift in Sources */,
+				F1C405DD26040D8D00DC6148 /* HomecubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C405E626040D8E00DC6148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C405EF26040D8E00DC6148 /* HomecubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C405F126040D8E00DC6148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C405FA26040D8E00DC6148 /* HomecubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C405EC26040D8E00DC6148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C405D826040D8D00DC6148 /* Homecub */;
+			targetProxy = F1C405EB26040D8E00DC6148 /* PBXContainerItemProxy */;
+		};
+		F1C405F726040D8E00DC6148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C405D826040D8D00DC6148 /* Homecub */;
+			targetProxy = F1C405F626040D8E00DC6148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1C405FC26040D8E00DC6148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1C405FD26040D8E00DC6148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C405FF26040D8E00DC6148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Homecub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Homecub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Archengine.Homecub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1C4060026040D8E00DC6148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Homecub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Homecub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Archengine.Homecub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1C4060226040D8E00DC6148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomecubTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Archengine.HomecubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homecub.app/Homecub";
+			};
+			name = Debug;
+		};
+		F1C4060326040D8E00DC6148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomecubTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Archengine.HomecubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homecub.app/Homecub";
+			};
+			name = Release;
+		};
+		F1C4060526040D8E00DC6148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomecubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Archengine.HomecubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Homecub;
+			};
+			name = Debug;
+		};
+		F1C4060626040D8E00DC6148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomecubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Archengine.HomecubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Homecub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C405D426040D8D00DC6148 /* Build configuration list for PBXProject "Homecub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C405FC26040D8E00DC6148 /* Debug */,
+				F1C405FD26040D8E00DC6148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C405FE26040D8E00DC6148 /* Build configuration list for PBXNativeTarget "Homecub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C405FF26040D8E00DC6148 /* Debug */,
+				F1C4060026040D8E00DC6148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C4060126040D8E00DC6148 /* Build configuration list for PBXNativeTarget "HomecubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C4060226040D8E00DC6148 /* Debug */,
+				F1C4060326040D8E00DC6148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C4060426040D8E00DC6148 /* Build configuration list for PBXNativeTarget "HomecubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C4060526040D8E00DC6148 /* Debug */,
+				F1C4060626040D8E00DC6148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C405D126040D8D00DC6148 /* Project object */;
+}
