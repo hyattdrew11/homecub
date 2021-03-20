@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+//  remeber only 10 views aere allowed in top level view - do more research on this
 
 struct ContentView: View {
     
@@ -60,8 +60,6 @@ struct ContentView: View {
             }
         }
     }
-
-// only 10 views allows in top level view
 
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
