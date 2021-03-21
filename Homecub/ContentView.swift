@@ -8,62 +8,87 @@
 import SwiftUI
 
 //  remeber only 10 views aere allowed in top level view - do more research on this
+extension Color {
+    init(hex: UInt, alpha: Double = 1) {
+        self.init(
+            .sRGB,
+            red: Double((hex >> 16) & 0xff) / 255,
+            green: Double((hex >> 08) & 0xff) / 255,
+            blue: Double((hex >> 00) & 0xff) / 255,
+            opacity: alpha
+        )
+    }
+}
 
 struct ContentView: View {
     
     @State private var isNight = false
     
     var body: some View {
-        ZStack {
-            
-            BackgroundView(topColor: isNight ? .black : .blue,
-                           bottomColor: isNight ? .gray : Color("lightBlue"))
-            
-            VStack {
-                CityTextView(cityName: "Jackson, MS")
-                MainWeatherStatusView(imageName: isNight ? "moon.fill" : "cloud.sun.fill",
-                                      temperature: 76)
-                HStack(spacing: 20) {
-                    WeatherDayView(dayOfWeek: "TUE",
-                               imageName: "cloud.sun.fill",
-                               temperature: 74)
-
-                    WeatherDayView(dayOfWeek: "WED",
-                                   imageName: "cloud.sun.fill",
-                                   temperature: 88)
-
-                    WeatherDayView(dayOfWeek: "THU",
-                               imageName: "cloud.sun.fill",
-                               temperature: 79)
-
-                    WeatherDayView(dayOfWeek: "FRI",
-                                   imageName: "cloud.sun.fill",
-                                   temperature: 71)
-
-                    WeatherDayView(dayOfWeek: "SAT",
-                                   imageName: "cloud.sun.fill",
-                                   temperature: 70)
-                }
-                    
-                Spacer()
-                
-                Button {
-                    isNight.toggle()
-                    }
-                    label: {
-                        WeatherButton(title: "Change day time",
-                                  textColor: .blue,
-                                  backgroundColor: .white)
-                    }
-                }
-                
-            }
-        }
+        
+       MainNavigation()
+        
     }
+}
+struct MainNavigation: View {
+    var body: some View {
+        TabView {
+                NavigationView {
+                    Text("Search")
+                    .navigationBarItems(leading:
+                                        Button("Filter") {
+                                            print("Filter Search!")
+                                        }
+                    )
+                }
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("Search")
+                }
+            
+                NavigationView {
+                    Text("Updates")
+                }
+                .tabItem {
+                    Image(systemName: "envelope")
+                    Text("Updates")
+                }
+            
+                NavigationView {
+                    Text("Viewings")
+                }
+                .tabItem {
+                    Image(systemName: "house.circle.fill")
+                    Text("Viewings")
+                }
+                NavigationView {
+                    Text("Contacts")
+                }
+                .tabItem {
+                    Image(systemName: "figure.wave")
+                    Text("Contacts")
+                }
+                NavigationView {
+                    Text("Menu")
+                }
+                .tabItem {
+                    Image(systemName: "ellipsis")
+                    Text("Menu")
+                }
 
+        }
+        .onAppear {
+            UITabBar.appearance().barTintColor = .white
+        }
+        .edgesIgnoringSafeArea(.top)
+        .accentColor(Color(hex: 0x14203e))
+    }
+}
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            Group {
+                ContentView()
+            }
         }
     }
 
@@ -145,3 +170,50 @@ struct ContentView: View {
                 .cornerRadius(10)
         }
     }
+
+
+
+//        ZStack {
+            
+//            BackgroundView(topColor: isNight ? .black : .blue,
+//                           bottomColor: isNight ? .gray : Color("lightBlue"))
+//
+//            VStack {
+//                CityTextView(cityName: "Jackson, MS")
+//                MainWeatherStatusView(imageName: isNight ? "moon.fill" : "cloud.sun.fill",
+//                                      temperature: 76)
+//                HStack(spacing: 20) {
+//                    WeatherDayView(dayOfWeek: "TUE",
+//                               imageName: "cloud.sun.fill",
+//                               temperature: 74)
+//
+//                    WeatherDayView(dayOfWeek: "WED",
+//                                   imageName: "cloud.sun.fill",
+//                                   temperature: 88)
+//
+//                    WeatherDayView(dayOfWeek: "THU",
+//                               imageName: "cloud.sun.fill",
+//                               temperature: 79)
+//
+//                    WeatherDayView(dayOfWeek: "FRI",
+//                                   imageName: "cloud.sun.fill",
+//                                   temperature: 71)
+//
+//                    WeatherDayView(dayOfWeek: "SAT",
+//                                   imageName: "cloud.sun.fill",
+//                                   temperature: 70)
+//                }
+//
+//                Spacer()
+//
+//                Button {
+//                    isNight.toggle()
+//                    }
+//                    label: {
+//                        WeatherButton(title: "Change day time",
+//                                  textColor: .blue,
+//                                  backgroundColor: .white)
+//                    }
+//                }
+                
+//            }
